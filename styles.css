@@ -1,0 +1,51 @@
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 1.5rem;
+    opacity: 1;
+    transition: opacity 3.0s ease-in-out;
+}
+
+body.fade-out {
+    opacity: 0;
+}
+
+div {
+    padding: 100px;
+    padding-bottom:200px;
+    font-size: 18px;
+}
+
+.note { 
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.site-nav {
+    position: fixed;
+    bottom: 16px;
+    width: 100%;
+    text-align: center;
+    pointer-events: auto;
+}
+
+.site-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
