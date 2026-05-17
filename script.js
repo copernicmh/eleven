@@ -13,9 +13,7 @@ document.body.addEventListener('click', (e) => {
 
     const nextMap = {
         'index.html': 'page2.html',
-        'page2.html': 'page3.html',
-        'page3.html': 'page4.html',
-        'page4.html': 'index.html'
+        'page2.html': 'index.html',
     };
 
     const next = nextMap[page] || 'index.html';
